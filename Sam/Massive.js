@@ -22,3 +22,13 @@ function noobSort(arrToSort){
     return arrSorted;
 }
 console.log(noobSort(arr))
+function isArraySorted(sorted, original){
+    for (let i=0; i < sorted.length; i+=1){
+        if (sorted[i]>sorted[i+1]){
+            return false;
+        }
+        else return true;
+    }
+    return check;
+}
+console.log(isArraySorted(noobSort(arr), arr))
